@@ -2,9 +2,8 @@ import { mount } from "enzyme";
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { LanguageProvider } from "../components/Language";
-import Routes from "../modules/config/routes";
 import Localization from "../components/Language/Localization";
-import { storage } from "../modules/storage";
+import Routes from "../modules/config/routes";
 
 describe("Routes", () => {
     const localizor = new Localization();
